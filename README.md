@@ -1,7 +1,7 @@
 # dghard — Spectral Unforgetting: Post-Hoc Recovery of Damaged Capabilities Without Retraining
 
 Reference implementation of **DG-Hard**, the method introduced in *Spectral Unforgetting:
-Post-Hoc Recovery of Damaged Capabilities Without Retraining* (NeurIPS 2026). DG-Hard takes a base
+Post-Hoc Recovery of Damaged Capabilities Without Retraining*. DG-Hard takes a base
 checkpoint θ₀ and a fine-tuned checkpoint θₙ of the same architecture, computes the
 fine-tune delta Δ = θₙ − θ₀, and returns θ\* = θ₀ + Δ\* by hard-thresholding the
 singular values of Δ at the Donoho-Gavish optimal cutoff τ\* = ω(β)·σ̂. No training,
@@ -171,10 +171,8 @@ Apache-2.0. See `LICENSE`.
 ## Citation
 
 ```
-@inproceedings{anonymous2026dghard,
+@inproceedings{anonymous_dghard,
   title  = {Spectral Unforgetting: Post-Hoc Recovery of Damaged Capabilities Without Retraining},
   author = {Anonymous},
-  booktitle = {NeurIPS},
-  year   = {2026},
 }
 ```
