@@ -1,4 +1,4 @@
-# dghard — Spectral Unforgetting: Post-Hoc Recovery of Damaged Capabilities Without Retraining
+# dghard - Spectral Unforgetting: Post-Hoc Recovery of Damaged Capabilities Without Retraining
 
 Reference implementation of **DG-Hard**, the method introduced in *Spectral Unforgetting:
 Post-Hoc Recovery of Damaged Capabilities Without Retraining*. DG-Hard takes a base
