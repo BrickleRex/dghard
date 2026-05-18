@@ -171,8 +171,9 @@ Apache-2.0. See `LICENSE`.
 ## Citation
 
 ```
-@inproceedings{anonymous_dghard,
+@misc{abro2026spectral,
   title  = {Spectral Unforgetting: Post-Hoc Recovery of Damaged Capabilities Without Retraining},
-  author = {Anonymous},
+  author = {Abro, Aarash and Tahir, Muhammad},
+  year   = {2026},
 }
 ```
